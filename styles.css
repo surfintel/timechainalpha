@@ -922,7 +922,7 @@ body.hovered .cursor-circle {
     font-family: var(--font-mono);
     font-size: 0.58rem;
     letter-spacing: 0.14em;
-    color: rgba(0, 77, 153, 0.9);
+    color: var(--muted);
     border: 1px solid var(--border-blue);
     padding: 0.3rem 0.65rem;
     text-transform: uppercase;
