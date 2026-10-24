@@ -320,14 +320,6 @@ function initScrollAnimations() {
         }
     }
 
-    // CTA entrance
-    const ctaTitle = document.querySelector('.cta-title');
-    if (ctaTitle) {
-        gsap.from(ctaTitle, {
-            y: 60, opacity: 0, duration: 1.2, ease: 'power3.out',
-            scrollTrigger: { trigger: '.cta', start: 'top 70%', once: true }
-        });
-    }
     const ctaBtn = document.querySelector('.btn-cta');
     if (ctaBtn) {
         gsap.from(ctaBtn, {
